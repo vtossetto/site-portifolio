@@ -5,10 +5,16 @@
   box-sizing: border-box;
 }
 
+.home{
+  background-color: #eaded1;
+  height: 100vh;
+  width: 100%;
 
+}
 
 .menu{
-  background-color: #f2a752;
+  background-color: #BF7F35;
+  height: 80px;
 
 }
 
@@ -23,7 +29,7 @@ nav{
 }
 
 nav h2{
-  color: #A04E1F;
+  color: #fff;
   font-size: 35px;
   cursor: pointer;
   letter-spacing: 1px;
@@ -37,7 +43,7 @@ nav ul li{
 }
 
   nav ul li a{
-    color: #A04E1F;
+    color: #fff;
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
@@ -48,4 +54,63 @@ nav ul li a:hover{
     color: #686346;
     transform: .4s;
     text-decoration: underline;
+}
+
+.btn:hover{
+  transform: scale(1.2);
+}
+
+.main{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+h1{
+  color: #A04E1F;
+  margin: 20px 0px 20px;
+  font-size: 75px;
+}
+
+h4{
+  color: #A04E1F;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+h3{
+  color: #A04E1F;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.Container-btn form{
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+
+.Container-btn form input:first-child{
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #A04E1F;
+  border-radius: 30px;
+  outline: none;
+}
+
+.Container-btn form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #A04E1F;
+  color: #fff;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+  right: 6px;
+  top: 6px;
+  
 }
