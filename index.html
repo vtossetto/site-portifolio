@@ -11,15 +11,15 @@
     <title>Portfolio website</title>
 </head>
 <body>
-    <div class="home">
+    <div id="home" class="home-tela">
         <nav class="menu">
             <h2>Portfolio</h2>
             <ul class="caecalho-link">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul><!--Cabeçalho-link-->
         </nav>
 
@@ -40,7 +40,7 @@
 
     <!--Começo-da-seção-sobre-->
 
-    <section class="background-color-Sobre">
+    <section id="sobre" class="background-color-Sobre">
         <div class="main-sobre">
             <img src="foto-perfil.jpg">
             <div class="Text-sobre">
@@ -49,14 +49,18 @@
                 <p>Sou estudante de programação, com foco na área de Desenvolvimento Front-End.
                     Tenho conhecimento em HTML, CSS, Bootstrap e JavaScript, Git, Github e Figma e também possuo experiência com Testes Manuais e Testes Automatizados com TestComplete
                     </p>
-                <button type="button">Vamos conversa</button><!--Button-->
+                <a href="https://api.whatsapp.com/send?phone=555181632051">
+                    <button type="button">Vamos conversar</button><!--Button-->
+                </a>
+                      
+                
             </div><!--Text-sobre-->
         </div><!--main-sobre-->
     </section><!--background-color-Sobre-->
 
     <!--Começo-da-seção-Projetos-->
 
-    <div class="Container-projetos">
+    <div id="projetos" class="Container-projetos">
         <div class="title">
             <h2>Projetos</h2>
         </div><!--title-->
@@ -65,25 +69,31 @@
             <div class="Card">
                 <i class="fa fa-map-pin"></i>
                 <h5>Controle Financeiro</h5>
-                <button type="button">Ler Mais</button><!--button-->
+                <a href="https://vtossetto.github.io/Controle-Financeiro/" target="_blanck">
+                    <button type="button">Visitar</button><!--button-->
+                </a>
             </div><!--Card-->
 
             <div class="Card">
                 <i class="fa fa-map-pin"></i>
                 <h5>Apê das Suculentas</h5>
-                <button type="button">Ler Mais</button><!--button-->
+                <a href="https://vtossetto.github.io/ape-das-suculentas/" target="_blank">
+                    <button type="button">Visitar</button><!--button-->
+                </a>
             </div><!--Card-->
 
             <div class="Card">
                 <i class="fa fa-map-pin"></i>
                 <h5>Site Portifólio</h5>
-                <button type="button">Ler Mais</button><!--button-->
+                <a href="https://vtossetto.github.io/site-portifolio/" target="_blank">
+                    <button type="button">Visitar</button><!--button-->
+                </a>
             </div><!--Card-->
         </div><!--Caixa-->
     </div><!--Conatiner-projetos-->
     
     <!--Habilidades-->
-    <div class="habilidades">
+    <div id="habilidades" class="habilidades">
         <h6>Habilidades</h6>
         <p>Possuo conhecimentos em HTML, CSS, JavaScript e Bootstrap, podendo construir páginas simples de front-end.</p>
         <p>Conhecimento básico/intermediário com figma, sei contruir telas para UX.</p>
@@ -94,9 +104,9 @@
     <footer>
           <h6>Vanessa Tossetto</h6>
         <p>Para mais HTML E CSS, tutorias - por favor clique no link abaixo para se inscrever no meu canal</p>
-        <div class="Redes-sociais">
-            <a href="#"><i class="fab fa-linkedin"></i>
-            <a href="#"><i class="fab fa-github"></i></a>
+        <div id="contato" class="Redes-sociais">
+            <a href="https://www.linkedin.com/in/vanessatossetto/" target="_blanck"><i class="fab fa-linkedin"></i>
+            <a href="https://github.com/vtossetto" target="_blanck"><i class="fab fa-github"></i></a>
         </div><!--Redes-sociais-->
         <p class="end">CopyRight By Vanessa Tossetto</p>
     </footer>
