@@ -67,6 +67,7 @@ nav ul li a:hover{
   top: 50%;
   left: 8%;
   transform: translateY(-50%);
+  
 }
 
 h1{
@@ -115,6 +116,51 @@ h3{
   right: 6px;
   top: 6px;
   
+}
+
+/*
+.home-img img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    animation: float 5s ease-in-out infinite;
+    box-shadow: 0 10px 10px;
+    border-radius: 50%;
+    float: right;
+    top: 50%;
+    transform: translateY(-50%)
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    right: 8%;
+
+*/
+
+.home-img {
+  width: 30%;
+  float: right;
+  margin-top: 350px;
+  margin-right: 80px;
+}
+
+.home-img img {
+  width: 200px;
+  height: 200px;
+  animation: float 5s ease-in-out infinite;
+  box-shadow: 0 10px 10px;
+  border-radius: 50%;
+  
+  
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
 }
 
 .background-color-Sobre{
